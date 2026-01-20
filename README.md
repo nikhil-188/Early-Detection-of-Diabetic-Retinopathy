@@ -1,4 +1,5 @@
-#Early Stage of Diabetic Retinopathy inRetinal Images Using Efficient Dense Net
+# Early Stage of Diabetic Retinopathy in Retinal Images Using Efficient Dense Net
+
 **Problem Identification**
 Diabetic Retinopathy (DR) is a leading cause of blindness if not detected early.
 Manual screening of retinal fundus images is time-consuming and subjective.
@@ -63,7 +64,7 @@ A hybrid approach was proposed to:
 Combine EfficientNet-B5’s efficient global feature extraction
 With DenseNet-121’s dense feature reuse and gradient flow
 
-** Hybrid Model Design (Model Chaining)**
+**Hybrid Model Design (Model Chaining)**
 EfficientNet-B5 was used as Model 1:
 Fully connected layers were removed
 Used purely as a feature extractor
